@@ -348,6 +348,34 @@ footer {
     padding: 1%;
 }
 
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #FFF;
+  background-color:#1ab152;
+    
+    animation: shake 1s;
+
+ 
+  animation-iteration-count: infinite;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
 @media (max-width:768px) and (min-width: 0px) {
     body#contenedor {
         min-width: 100vw;
@@ -418,7 +446,7 @@ footer {
         text-decoration: none;
         color: #e19f41;
         text-align: center;
-        font-size: 10vw;
+        font-size: 2.5vw;
         width: 100%;
         height: 10vh;
         padding: 2.5vh 2vw;
@@ -465,12 +493,12 @@ footer {
         text-align: justify;
         color: black;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 10vw;
+        font-size: 2.5vw;
     }
 
     li {
         list-style: none;
-        font-size: 10vw;
+        font-size: 2.5vw;
         text-align: justify;
         color: #000000;
         font-family: Arial, Helvetica, sans-serif;
@@ -480,7 +508,7 @@ footer {
     h2,
     h3,
     h4 {
-        font-size: 12vw;
+        font-size: 3vw;
         text-align: justify;
         color: #000000;
         font-family: Arial, Helvetica, sans-serif;
@@ -490,7 +518,7 @@ footer {
         text-align: justify;
         color: black;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 10vw;
+        font-size: 2.5svw;
     }
 
     #Galeria {
@@ -640,7 +668,7 @@ footer {
         text-align: justify;
         color: black;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 10vw;
+        font-size: 2.5vw;
         transition: all 0.25s;
     }
     
@@ -649,7 +677,7 @@ footer {
         text-align: justify;
         color: black;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 10vw;
+        font-size: 3vw;
         border-bottom: 3px black solid;
         transition: all 0.25s;
     }
