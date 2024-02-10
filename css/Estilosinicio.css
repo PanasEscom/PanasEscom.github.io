@@ -446,7 +446,7 @@ footer {
         text-decoration: none;
         color: #e19f41;
         text-align: center;
-        font-size: 2.5vw;
+        font-size: 5vw;
         width: 100%;
         height: 10vh;
         padding: 2.5vh 2vw;
@@ -493,12 +493,12 @@ footer {
         text-align: justify;
         color: black;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 2.5vw;
+        font-size: 5vw;
     }
 
     li {
         list-style: none;
-        font-size: 2.5vw;
+        font-size: 5vw;
         text-align: justify;
         color: #000000;
         font-family: Arial, Helvetica, sans-serif;
@@ -508,7 +508,7 @@ footer {
     h2,
     h3,
     h4 {
-        font-size: 3vw;
+        font-size: 6vw;
         text-align: justify;
         color: #000000;
         font-family: Arial, Helvetica, sans-serif;
@@ -518,7 +518,7 @@ footer {
         text-align: justify;
         color: black;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 2.5svw;
+        font-size: 5vw;
     }
 
     #Galeria {
@@ -660,7 +660,7 @@ footer {
     
     #conc3 li, #conc4 li {
         text-align: center;
-        margin: 2.5vh 0;
+        margin: 5vh 0;
     }
     
     #conc3 a, #conc4 a {
@@ -668,7 +668,7 @@ footer {
         text-align: justify;
         color: black;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 2.5vw;
+        font-size: 5vw;
         transition: all 0.25s;
     }
     
@@ -677,7 +677,7 @@ footer {
         text-align: justify;
         color: black;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 3vw;
+        font-size: 5vw;
         border-bottom: 3px black solid;
         transition: all 0.25s;
     }
