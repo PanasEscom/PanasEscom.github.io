@@ -499,7 +499,6 @@ footer {
     li {
         list-style: none;
         font-size: 5vw;
-        text-align: justify;
         color: #000000;
         font-family: Arial, Helvetica, sans-serif;
     }
@@ -509,13 +508,12 @@ footer {
     h3,
     h4 {
         font-size: 6vw;
-        text-align: justify;
+        text-align: center;
         color: #000000;
         font-family: Arial, Helvetica, sans-serif;
     }
 
     p {
-        text-align: justify;
         color: black;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 5vw;
@@ -665,7 +663,7 @@ footer {
     
     #conc3 a, #conc4 a {
         text-decoration: none;
-        text-align: justify;
+        text-align: center;
         color: black;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 5vw;
@@ -674,7 +672,7 @@ footer {
     
     #conc3 a:hover, #conc4 a:hover {
         text-decoration: none;
-        text-align: justify;
+        text-align: center;
         color: black;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 5vw;
