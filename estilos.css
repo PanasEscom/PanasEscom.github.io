@@ -496,10 +496,9 @@ input {
     margin-left: 100%;
     transition: all 2s;
     list-style: none;
-    ;
     background-color: black;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
   }
   
@@ -517,7 +516,7 @@ input {
     height: 100%;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 3.5vh;
+    font-size: 3.3vh;
     text-decoration: none;
     color: #0080BF;
     padding: 1% 2.3vw;
