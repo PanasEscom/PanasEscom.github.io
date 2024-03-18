@@ -24,6 +24,12 @@ input {
 
 nav {
   height: auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input {
+  display: none;
 }
 
 #Menu {
@@ -32,21 +38,25 @@ nav {
   height: auto;
   float: right;
   z-index: 2;
-  margin-left:100%;
+  margin-left: 100%;
   transition: all 2s;
-  list-style: none;;
-  background-color: black ;
+  list-style: none;
+  ;
+  background-color: black;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
-#btn:checked ~ #Menu{
+#btn:checked~#Menu {
   margin-left: 0%;
   transition: all 2s;
+  box-sizing: border-box;
 }
 
-#Menu a, #Menu a:visited, #Menu a:active {
+#Menu a,
+#Menu a:visited,
+#Menu a:active {
   display: inline-block;
   width: 100%;
   height: 100%;
@@ -56,22 +66,22 @@ nav {
   text-decoration: none;
   color: #0080BF;
   padding: 1% 2.3vw;
-  border-bottom: 1vh solid black ;
+  border-bottom: 1vh solid black;
   transition: all 0.75s;
   text-align: center;
 
 }
 
 #Menu a:hover {
-  border-bottom:1vh solid #0080BF;
+  border-bottom: 1vh solid #0080BF;
   transition: all 0.75s;
 }
 
 #presentacion {
   background-image: url(Imagenes/pngtree-tech-background-picture-image_2759047.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 110%  ;
-  opacity:10 ;
+  background-size: 100% 110%;
+  opacity: 10;
   width: 100%;
   height: auto;
   display: flex;
@@ -89,7 +99,7 @@ nav {
   justify-content: center;
   box-sizing: border-box;
   border-bottom: 1px solid white;
-  margin:3vh 0vw 0vh 0vh;
+  margin: 3vh 0vw 0vh 0vh;
   height: 100%;
 }
 
@@ -119,19 +129,28 @@ nav {
 
 
 #frase {
-  background: linear-gradient(45deg,black,#505050);
+  background: linear-gradient(45deg, black, #505050);
   background-size: 200% 200%;
   position: relative;
   padding: 10vh 10vw;
   animation: fondo 5s ease infinite;
 }
 
-@keyframes fondo{
-  0% { background-position: 0 50%;}
-  50% { background-position: 100% 50%;}
-  100% { background-position: 0 50%;}
-  
+@keyframes fondo {
+  0% {
+    background-position: 0 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0 50%;
+  }
+
 }
+
 #frase h2 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 4.5vw;
@@ -148,7 +167,7 @@ nav {
 #Nosotros h3 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 4.25vw;
-  color: #0080BF ;
+  color: #0080BF;
   width: 50%;
   height: auto;
   margin-left: 3%;
@@ -163,11 +182,11 @@ nav {
 
 
 #imgnosotros img {
- width: 55%;
- box-sizing: border-box;
- border-radius: 10px;
- padding: 0.5% 0% 0% 0%;
- margin-right: 2%
+  width: 55%;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 0.5% 0% 0% 0%;
+  margin-right: 2%
 }
 
 
@@ -180,7 +199,7 @@ nav {
 #Textonosotros h4 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 4vw;
-  color: #0080BF ;
+  color: #0080BF;
 }
 
 #Textonosotros p {
@@ -192,15 +211,15 @@ nav {
 #Objetivos {
   width: 100%;
   height: auto;
- background-color: #0080BF ;
- padding: 5.5vh 2vw;
- display: flex;
- flex-direction: row;
- box-sizing: border-box
+  background-color: #0080BF;
+  padding: 5.5vh 2vw;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box
 }
 
 .mision {
-  width:31.333%;
+  width: 31.333%;
   height: 100%;
   box-sizing: border-box;
   margin: 1%
@@ -222,7 +241,7 @@ nav {
   text-align: center;
 }
 
-.mision img{
+.mision img {
   width: 100%;
   height: 45vh;
   border-radius: 10px;
@@ -231,15 +250,15 @@ nav {
 
 #inversion {
   width: 100%;
- padding: 5vh 6vw 2vh 6vw;
- display: flex;
- flex-direction: column;
- box-sizing: border-box
+  padding: 5vh 6vw 2vh 6vw;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box
 }
 
 
 #Tinversion {
-  background-color: #0080BF ;
+  background-color: #0080BF;
   border-radius: 10px;
   display: flex;
   flex-direction: row;
@@ -254,30 +273,30 @@ nav {
 }
 
 #Dinversion {
-  border: 2.5px solid #0080BF ;
+  border: 2.5px solid #0080BF;
   border-radius: 15px;
   margin: 2.5% 0%;
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
 }
 
 #DinversionT {
   display: flex;
-  flex-direction: column ;
+  flex-direction: column;
   width: 40%;
   box-sizing: border-box;
   align-content: center;
   align-items: center;
   justify-content: center;
-  padding: 0 3% ;
+  padding: 0 3%;
 }
 
 
-#DinversionT h4 { 
- font-family: Arial, Helvetica, sans-serif;
- font-size: 4vw;
- color: #0080BF ;
- width: 100%;
+#DinversionT h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4vw;
+  color: #0080BF;
+  width: 100%;
 }
 
 #DinversionT p {
@@ -297,7 +316,7 @@ nav {
 
 #distinsion {
   width: 100%;
-  background-color: #0080BF ;
+  background-color: #0080BF;
   padding: 5vh 4vw 2vh 4vw;
   display: flex;
   flex-direction: column;
@@ -318,7 +337,7 @@ nav {
 
 #Caja {
   width: 100%;
-  background-color: #0080BF ;
+  background-color: #0080BF;
   padding: 3vh 0vw 2vh 0vw;
   display: flex;
   flex-direction: row;
@@ -346,8 +365,9 @@ nav {
   font-family: 'Times New Roman', Times, serif;
   font-size: 1.9vw;
   color: white;
-  
+
 }
+
 .cajas img {
   width: 100%;
   height: 55%;
@@ -357,7 +377,7 @@ nav {
 
 #Fnal {
   background-image: url(Imagenes/xcom.jpg);
-  padding:4vh 5vw 12vh 5vw ;
+  padding: 4vh 5vw 12vh 5vw;
 }
 
 #Fcuadro {
@@ -373,7 +393,7 @@ nav {
 #Fcuadro h4 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 4vw;
-  color: #0080BF ;
+  color: #0080BF;
   width: 50%;
   padding-left: 1vw;
 }
@@ -390,33 +410,33 @@ nav {
 }
 
 #comentarios {
- width: 100%;
- padding:4vh 7vw 5vh 7vw ; 
- display: flex;
- flex-direction: row;
+  width: 100%;
+  padding: 4vh 7vw 5vh 7vw;
+  display: flex;
+  flex-direction: row;
 }
 
 #comentarios h3 {
   width: 50%;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 5.5vw;
-  color: #0080BF ;
+  color: #0080BF;
   padding-right: 7.5%;
   box-sizing: border-box;
 }
 
 #comentcaja {
   width: 50%;
- display: flex;
- flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .caja1 {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   width: 100%;
-  border-bottom: 1.5px solid #0080BF ;
-  border-top: 1.5px solid #0080BF 
+  border-bottom: 1.5px solid #0080BF;
+  border-top: 1.5px solid #0080BF
 }
 
 
@@ -431,9 +451,9 @@ nav {
   height: auto
 }
 
-.tcoment h5{
+.tcoment h5 {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 3.5vw; 
+  font-size: 3.5vw;
 }
 
 .tcoment p {
@@ -449,7 +469,7 @@ nav {
     border: 0px;
     box-sizing: border-box;
   }
-  
+
   body {
     min-width: 100vw;
     font-family: Arial, sans-serif;
@@ -458,11 +478,61 @@ nav {
     border: 0px;
     background-color: white;
   }
-  
+
   ::-webkit-scrollbar {
     display: none;
   }
+
+  header {
+    width: 100%;
+  }
+
+  #Menu {
+    width: 100%;
+    position: fixed;
+    height: auto;
+    float: right;
+    z-index: 2;
+    margin-left: 100%;
+    transition: all 2s;
+    list-style: none;
+    ;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
   
+  #btn:checked~#Menu {
+    margin-left: 0%;
+    transition: all 2s;
+    box-sizing: border-box;
+  }
+  
+  #Menu a,
+  #Menu a:visited,
+  #Menu a:active {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.5vh;
+    text-decoration: none;
+    color: #0080BF;
+    padding: 1% 2.3vw;
+    border-bottom: 1vh solid black;
+    transition: all 0.75s;
+    text-align: center;
+  
+  }
+  
+  #Menu a:hover {
+    border-bottom: 1vh solid #0080BF;
+    transition: all 0.75s;
+  }
+
+
   #presentacion {
     width: 100%;
     height: auto;
@@ -471,7 +541,7 @@ nav {
     padding: 3vh 9vw 5vh 9vw;
     box-sizing: border-box;
   }
-  
+
   #tpresentacion {
     width: 100%;
     height: auto;
@@ -481,23 +551,23 @@ nav {
     justify-content: center;
     box-sizing: border-box;
     border-bottom: 1px solid white;
-    margin:3vh 0vw 0vh 0vh;
+    margin: 3vh 0vw 0vh 0vh;
     height: 100%;
   }
-  
-  
+
+
   #tpresentacion img {
     width: 10%;
     height: 10%;
-  
+
   }
-  
+
   #tpresentacion h1 {
     font-family: sans-serif;
     font-size: 12vw;
     color: white;
   }
-  
+
   #presentacion label {
     width: 50%;
     box-sizing: border-box;
@@ -508,39 +578,48 @@ nav {
     color: white;
     margin: 15vh 0vw 0vh 0vw;
   }
-  
-  
+
+
   #frase {
-    background: linear-gradient(45deg,black,#505050);
+    background: linear-gradient(45deg, black, #505050);
     background-size: 200% 200%;
     position: relative;
     padding: 7.5vh 7.5vw;
     animation: fondo 5s ease infinite;
   }
-  
-  @keyframes fondo{
-    0% { background-position: 0 50%;}
-    50% { background-position: 100% 50%;}
-    100% { background-position: 0 50%;}
-    
+
+  @keyframes fondo {
+    0% {
+      background-position: 0 50%;
+    }
+
+    50% {
+      background-position: 100% 50%;
+    }
+
+    100% {
+      background-position: 0 50%;
+    }
+
   }
+
   #frase h2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 7.2vw;
     text-align: justify;
     color: white;
   }
-  
+
   #Nosotros {
     width: 100%;
     padding: 2vh 2vw;
     margin-bottom: 1%;
   }
-  
+
   #Nosotros h3 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 8vw;
-    color: #0080BF ;
+    color: #0080BF;
     width: auto;
     height: auto;
     margin-left: 0%;
@@ -548,66 +627,66 @@ nav {
     box-sizing: border-box;
     text-align: center;
   }
-  
+
   #imgnosotros {
     display: flex;
     flex-direction: column;
     margin: 1% 3% 1.5% 3%;
     justify-content: center;
   }
-  
-  
+
+
   #imgnosotros img {
-   width: 100%;
-   box-sizing: border-box;
-   border-radius: 2px;
-   padding: 0.5% 25% 0% 25%;
-   margin-right: 0%
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 0.5% 25% 0% 25%;
+    margin-right: 0%
   }
-  
-  
+
+
   #Textonosotros {
     width: 100%;
     box-sizing: border-box;
     padding: 4% 5% 4% 5%;
   }
-  
+
   #Textonosotros h4 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 7.5vw;
-    color: #0080BF ;
+    color: #0080BF;
     text-align: center;
   }
-  
+
   #Textonosotros p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3.75vw;
     text-align: justify
   }
-  
+
   #Objetivos {
     width: 100%;
-   background-color: #0080BF ;
-   box-sizing: border-box;
-   padding: 3vh 7vw;
-   display: flex;
-   flex-direction: column;
+    background-color: #0080BF;
+    box-sizing: border-box;
+    padding: 3vh 7vw;
+    display: flex;
+    flex-direction: column;
   }
-  
+
   .mision {
-    width:100%;
+    width: 100%;
     box-sizing: border-box;
     margin: 2.5% 0%;
   }
-  
-  
+
+
   .mision h3 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 8vw;
     color: white;
     text-align: center
   }
-  
+
   .mision p {
     margin-top: 1.8vh;
     font-family: Arial, Helvetica, sans-serif;
@@ -615,7 +694,7 @@ nav {
     color: white;
     text-align: center;
   }
-  
+
   .mision img {
     width: 100%;
     height: 50vh;
@@ -624,76 +703,76 @@ nav {
     box-sizing: border-box;
     padding: 0% 20%;
   }
-  
+
   #inversion {
     width: 100%;
-   padding: 3vh 6vw 2vh 6vw;
-   display: flex;
-   flex-direction: column;
-   box-sizing: border-box
+    padding: 3vh 6vw 2vh 6vw;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box
   }
-  
-  
+
+
   #Tinversion {
-    background-color: #0080BF ;
+    background-color: #0080BF;
     border-radius: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
-  
+
   #Tinversion h3 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 8vw;
     padding: 1.5% 3% 1.5% 3%;
     color: white;
   }
-  
+
   #Dinversion {
-    border: 2.5px solid #0080BF ;
+    border: 2.5px solid #0080BF;
     border-radius: 15px;
     margin: 2.5% 0%;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
   }
-  
+
   #DinversionT {
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
     width: 100%;
     box-sizing: border-box;
     align-content: center;
     align-items: center;
     justify-content: center;
-    padding: 0 3% ;
+    padding: 0 3%;
   }
-  
-  
-  #DinversionT h4 { 
-   font-family: Arial, Helvetica, sans-serif;
-   font-size: 7.5vw;
-   color: #0080BF ;
-   width: 100%;
-   text-align: center;
+
+
+  #DinversionT h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 7.5vw;
+    color: #0080BF;
+    width: 100%;
+    text-align: center;
   }
-  
+
   #DinversionT p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 3.75vw;
     color: black;
     padding-top: 1vw;
   }
-  
+
   #Dinversion img {
     width: 100%;
     height: 40vh;
     box-sizing: border-box;
     padding: 3% 17.5% 3% 17.5%;
   }
-  
+
   #distinsion {
     width: 100%;
-    background-color: #0080BF ;
+    background-color: #0080BF;
     padding: 3vh 4vw 2vh 4vw;
     display: flex;
     flex-direction: column;
@@ -701,7 +780,7 @@ nav {
     align-content: center;
     justify-content: space-around;
   }
-  
+
   #distinsion h3 {
     width: 100%;
     text-align: center;
@@ -711,17 +790,17 @@ nav {
     color: white;
     text-align: center;
   }
-  
+
   #Caja {
     width: 100%;
-    background-color: #0080BF ;
+    background-color: #0080BF;
     padding: 1.5vh 7vw 2vh 7vw;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-content: center;
   }
-  
+
   .cajas {
     width: 100%;
     margin-top: 4%;
@@ -731,30 +810,31 @@ nav {
     padding: 4% 2%;
     text-align: center
   }
-  
+
   .cajas h5 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 7vw;
     color: white;
   }
-  
+
   .cajas p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 3.75vw;
     color: white;
-    
+
   }
+
   .cajas img {
     width: 100%;
     background-size: 100%;
     padding: 4% 1%;
   }
-  
+
   #Fnal {
-    padding:4vh 5vw 12vh 5vw ;
+    padding: 4vh 5vw 12vh 5vw;
     width: 100%;
   }
-  
+
   #Fcuadro {
     width: 100%;
     box-sizing: border-box;
@@ -764,80 +844,80 @@ nav {
     background-color: white;
     border-radius: 20px
   }
-  
+
   #Fcuadro h4 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 7.5vw;
-    color: #0080BF ;
+    color: #0080BF;
     width: 100%;
     padding-left: 0vw;
     text-align: center;
     padding-bottom: 2vh;
   }
-  
+
   #Tcuadro {
     width: 100%;
   }
-  
+
   #Tcuadro p {
     width: 100%;
     font-family: 'Times New Roman', Times, serif;
     font-size: 3.75vw;
     padding: 0% 10% 2% 10%;
   }
-  
+
   #comentarios {
-   width: 100%;
-   padding:4vh 7vw 5vh 7vw ; 
-   display: flex;
-   flex-direction: column;
+    width: 100%;
+    padding: 4vh 7vw 5vh 7vw;
+    display: flex;
+    flex-direction: column;
   }
-  
+
   #comentarios h3 {
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 8vw;
-    color: #0080BF ;
+    color: #0080BF;
     text-align: center;
     padding-right: 0;
     box-sizing: border-box;
     padding-bottom: 1.5vh;
   }
-  
+
   #comentcaja {
     width: 100%;
-   display: flex;
-   flex-direction: column;
+    display: flex;
+    flex-direction: column;
   }
-  
+
   .caja1 {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     width: 100%;
-    border-bottom: 1.5px solid #0080BF ;
-    border-top: 1.5px solid #0080BF ;
+    border-bottom: 1.5px solid #0080BF;
+    border-top: 1.5px solid #0080BF;
   }
-  
-  
+
+
   .caja1 img {
     width: 25%;
     padding: 1.5%;
     border-radius: 20px;
   }
-  
+
   .tcoment {
     width: 75%;
     height: auto
   }
-  
-  .tcoment h5{
+
+  .tcoment h5 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 7vw; 
+    font-size: 7vw;
   }
-  
+
   .tcoment p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 3.75vw
   }
 
-} 
+}
