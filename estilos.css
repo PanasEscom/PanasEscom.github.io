@@ -499,7 +499,6 @@ input {
     background-color: black;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
   }
   
   #btn:checked~#Menu {
